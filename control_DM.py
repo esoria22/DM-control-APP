@@ -12,7 +12,7 @@ import sys
 import hcipy
 import numpy as np
 from skimage import draw
-sys.path.append('C:/Users/esoria.DOMAINT/Documents/testTWFs/Lib/')
+
 from asdk38 import DM    
 serialName = 'BOL105'
 dm = DM( serialName)
